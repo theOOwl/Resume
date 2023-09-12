@@ -1,0 +1,7 @@
+C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\obj\Release\net6.0\PubTmp\Out\Resume.Presentation.exe
+C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\obj\Release\net6.0\PubTmp\Out\Resume.Presentation.dll
+C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\obj\Release\net6.0\PubTmp\Out\Resume.Presentation.deps.json
+C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\obj\Release\net6.0\PubTmp\Out\Resume.Presentation.runtimeconfig.json
+C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\obj\Release\net6.0\PubTmp\Out\Resume.Presentation.pdb
