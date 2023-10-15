@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Resume.Presentation
 build_property.RootNamespace = Resume.Presentation
-build_property.ProjectDir = C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation\
+build_property.ProjectDir = F:\Projects\Resume\Resume\Resume.Presentation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\theOOwl\source\repos\Resume.Me\Resume.Presentation
+build_property.MSBuildProjectDirectory = F:\Projects\Resume\Resume\Resume.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Admin/Index.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Home/About.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Home/Blog.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Home/Blog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Home/Contact.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Home/Daneshkar.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Home/Daneshkar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYW5lc2hrYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Home/Index.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Shared/Error.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Shared/Portfolio.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Shared/Portfolio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBvcnRmb2xpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Shared/_AdminLayout.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/_ViewImports.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/_ViewStart.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/theOOwl/source/repos/Resume.Me/Resume.Presentation/Views/Shared/_Layout.cshtml]
+[F:/Projects/Resume/Resume/Resume.Presentation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9wlk8gb5uk

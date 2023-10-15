@@ -1,0 +1,17 @@
+F:\Projects\Resume\Resume\Application\bin\Debug\net6.0\Application.deps.json
+F:\Projects\Resume\Resume\Application\bin\Debug\net6.0\Application.runtimeconfig.json
+F:\Projects\Resume\Resume\Application\bin\Debug\net6.0\Application.dll
+F:\Projects\Resume\Resume\Application\bin\Debug\net6.0\Application.pdb
+F:\Projects\Resume\Resume\Application\bin\Debug\net6.0\Domain.dll
+F:\Projects\Resume\Resume\Application\bin\Debug\net6.0\Domain.pdb
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.dll
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\refint\Application.dll
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.pdb
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache
+F:\Projects\Resume\Resume\Application\obj\Debug\net6.0\ref\Application.dll
