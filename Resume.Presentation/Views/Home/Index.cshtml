@@ -12,12 +12,21 @@
 				<div class="section">
 					<h2 class="title title--h2"><img class="title-icon" src="/NewFolder2/assets/icons/icon-education.svg" alt="" /> Education</h2>
 					<div class="timeline">
-						<!-- Item -->
-						<article class="timeline__item">
-							<h5 class="title title--h3 timeline__title">Golestan University</h5>
-							<span class="timeline__period">2017 — 2023</span>
-							<p class="timeline__description">During my time at Golestan University, I engaged in a diverse range of subjects and gained a comprehensive understanding of various academic disciplines. I actively participated in class discussions, collaborated with peers on group projects, and completed assignments to demonstrate my knowledge and critical thinking skills. My experience at Golestan University has equipped me with a strong educational foundation and the ability to thrive in an academic environment.</p>
-						</article>
+           @foreach (var education in Model.Educations)
+            {
+                <!-- Item -->
+                <article class="timeline__item">
+                    <h5 class="title title--h3 timeline__title">
+                        @education.EducationTitle
+                    </h5>
+                    <span class="timeline__period">
+                        @education.EducationDuration
+                    </span>
+                    <p class="timeline__description">
+                        @education.Description
+                    </p>
+                </article>
+            }
                                         
 @*						<!-- Item -->
 						<article class="timeline__item">
@@ -38,26 +47,21 @@
 				<div class="section">
 					<h2 class="title title--h2"><img class="title-icon" src="/NewFolder2/assets/icons/icon-experience.svg" alt="" /> Experience</h2>
 					<div class="timeline">
-						<!-- Item -->
-						<article class="timeline__item">
-							<h5 class="title title--h3 timeline__title">.Net Intern [Full Time]</h5>
-							<span class="timeline__period">2023 — Present</span>
-							<p class="timeline__description">Aryan Spad Company</p>
-						</article>
-                                        
-						<!-- Item -->
-						<article class="timeline__item">
-							<h5 class="title title--h3 timeline__title">FrontEnd Developer [Part Time]</h5>
-							<span class="timeline__period">2022 — 2023</span>
-							<p class="timeline__description">Aryan Spad Company</p>
-						</article>
-                                        
-						<!-- Item -->
-						<article class="timeline__item">
-							<h5 class="title title--h3 timeline__title">INT Flight Supervisor [Full Time]</h5>
-							<span class="timeline__period">2019 — 2022</span>
-							<p class="timeline__description">Alibaba.co</p>
-						</article>
+            @foreach (var experience in Model.Experience)
+            {
+                <!-- Item -->
+                <article class="timeline__item">
+                    <h5 class="title title--h3 timeline__title">
+                        @experience.ExperienceTitle
+                    </h5>
+                    <span class="timeline__period">
+                        @experience.ExperienceDuration
+                    </span>
+                    <p class="timeline__description">
+                        @experience.Description
+                    </p>
+                </article>
+            }
 					</div>
 				</div>
 						
@@ -65,44 +69,23 @@
 				<div class="section">
 				    <h2 class="title title--h2">My Skills</h2>
 				    <div class="box-gray">
-					    <!-- Progress -->
-					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"  style="background-color:#f6972c"><span>ASP.net</span><span>60%</span></div>
-						    </div>
-						    <div class="progress-text"><span>ASP.net</span></div>
+           @foreach (var mySkill in Model.MySkills)
+            {
+                <!-- Progress -->
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="@mySkill.Percentage" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-text">
+                            <span>
+                                @mySkill.SkillTille
+                            </span>
+                            <span>
+                                @mySkill.Percentage%
+                            </span>
                         </div>
-										
-					    <!-- Progress -->
-					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"><span>Git</span><span>90%</span></div>
-						    </div>
-						    <div class="progress-text"><span>Git</span></div>
-                        </div>
-								
-											    <!-- Progress -->
-					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"  style="background-color:#f6972c"><span>Docker</span><span>30%</span></div>
-						    </div>
-						    <div class="progress-text"><span>Docker</span></div>
-                        </div>
-					    <!-- Progress -->
-					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"><span>HTML/CSS/JS</span><span>75%</span></div>
-						    </div>
-						    <div class="progress-text"><span>Docker</span></div>
-                        </div>
-										
-					    <!-- Progress -->
-					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"  style="background-color:#f6972c"><span>MySQL</span><span>45%</span></div>
-						    </div>
-						    <div class="progress-text"><span>MySQL</span></div>
-                        </div>
+                    </div>
+                    <div class="progress-text"><span>@mySkill.SkillTille</span></div>
+                </div>
+            }
                     </div>
 				</div>
 			</div><!-- Content End -->

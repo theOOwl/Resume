@@ -1,7 +1,16 @@
+using Resume.Domain.RepositoryInterface;
+using Resume.Infrastructure.Repository;
+using Resume.Presenation.Models.ResumeDbContext;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IEducationRepository, EducationRepository>();
+builder.Services.AddScoped<IExperienceRepository, ExperienceRepository>();
+builder.Services.AddScoped<IMySkillsRepsitory, MySkillsRepository>();
+builder.Services.AddDbContext<ResumeDbContext>();
 
 var app = builder.Build();
 

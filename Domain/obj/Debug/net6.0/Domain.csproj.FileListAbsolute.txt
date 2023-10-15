@@ -1,0 +1,14 @@
+F:\Projects\Resume\Resume\Domain\bin\Debug\net6.0\Domain.deps.json
+F:\Projects\Resume\Resume\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+F:\Projects\Resume\Resume\Domain\bin\Debug\net6.0\Domain.dll
+F:\Projects\Resume\Resume\Domain\bin\Debug\net6.0\Domain.pdb
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.dll
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\refint\Domain.dll
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.pdb
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+F:\Projects\Resume\Resume\Domain\obj\Debug\net6.0\ref\Domain.dll
