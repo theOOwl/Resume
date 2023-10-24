@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs.AdminSide.Education
 {
-    public class CreateAnEducationAdminSideDTO
+    public class CreateAnExperienceAdminSideDTO
     {
         [Required]
         public string EducationTitle { get; set; }

@@ -6,5 +6,12 @@ namespace Resume.Domain.RepositoryInterface
     {
         //GetListOfMySkills
         List<MySkills> GetListOfMySkills();
+        Task AddMySkillsToDataBase(MySkills MySkills);
+
+        Task<MySkills> GetAnMySkillsByIdAsync(int MySkillsId);
+
+        Task EditAnMySkills(MySkills MySkills);
+
+        Task DeleteAnMySkills(MySkills MySkills);
     }
 }

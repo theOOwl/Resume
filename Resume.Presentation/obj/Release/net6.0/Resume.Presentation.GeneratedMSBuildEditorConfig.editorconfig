@@ -31,8 +31,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xFZHVjYXRpb25cTGlzdE9mQW5FZHVjYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/Experience/CreateAnExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xFeHBlcmllbmNlXENyZWF0ZUFuRXhwZXJpZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/Experience/DeleteAnExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xFeHBlcmllbmNlXERlbGV0ZUFuRXhwZXJpZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/Experience/EditAnExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xFeHBlcmllbmNlXEVkaXRBbkV4cGVyaWVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/Experience/ListOfAnExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xFeHBlcmllbmNlXExpc3RPZkFuRXhwZXJpZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/MySkills/CreateAnMySkills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNeVNraWxsc1xDcmVhdGVBbk15U2tpbGxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/MySkills/DeleteAnMySkills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNeVNraWxsc1xEZWxldGVBbk15U2tpbGxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/MySkills/EditAnMySkills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNeVNraWxsc1xFZGl0QW5NeVNraWxscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/MySkills/ListOfAnMySkills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNeVNraWxsc1xMaXN0T2ZBbk15U2tpbGxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Projects/Resume/Resume/Resume.Presentation/Areas/AdminPanel/Views/Shared/Portfolio.cshtml]

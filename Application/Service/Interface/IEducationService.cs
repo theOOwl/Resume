@@ -14,9 +14,9 @@ namespace Application.Service.Interface
         List<Education> GetListOFEducations();
 
         //Get List Of An Education For Show in Admin Panel 
-        List<ListOFAnEducationAdminSideDTO> GetListOfAnEducationForShowinAdminPanel();
+        List<ListOFAnExperienceAdminSideDTO> GetListOfAnEducationForShowinAdminPanel();
 
-        Task AddEducationToDataBase(CreateAnEducationAdminSideDTO model);
+        Task AddEducationToDataBase(CreateAnExperienceAdminSideDTO model);
 
         Task<Education> GetAnEducationByIdAsync(int educationId);
 

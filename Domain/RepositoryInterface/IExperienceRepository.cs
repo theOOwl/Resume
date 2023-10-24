@@ -6,5 +6,12 @@ namespace Resume.Domain.RepositoryInterface
     {
         //GetListOfExperience
         List<Experience> GetListOfExperience();
+        Task AddExperienceToDataBase(Experience Experience);
+
+        Task<Experience> GetAnExperienceByIdAsync(int ExperienceId);
+
+        Task EditAnExperience(Experience Experience);
+
+        Task DeleteAnExperience(Experience Experience);
     }
 }

@@ -35,7 +35,7 @@ namespace Resume.Presentation.Areas.AdminPanel.Controllers
         }
 
         [HttpPost, ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateAnEducation(CreateAnEducationAdminSideDTO model)
+        public async Task<IActionResult> CreateAnEducation(CreateAnExperienceAdminSideDTO model)
         {
             if (ModelState.IsValid)
             {
