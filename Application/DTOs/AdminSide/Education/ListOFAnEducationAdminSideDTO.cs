@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs.AdminSide.Education
 {
-    public class ListOFAnEducationAdminSideDTO
+    public class ListOFAnExperienceAdminSideDTO
     {
         #region properties
 

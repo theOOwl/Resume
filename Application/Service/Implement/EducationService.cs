@@ -18,7 +18,7 @@ namespace Application.Service.Implement
                _educationRepository = educationRepository;
         }
 
-        public async Task AddEducationToDataBase(CreateAnEducationAdminSideDTO model)
+        public async Task AddEducationToDataBase(CreateAnExperienceAdminSideDTO model)
         {
             #region Object Mapping
 
@@ -52,7 +52,7 @@ namespace Application.Service.Implement
             return await _educationRepository.GetAnEducationByIdAsync(educationId);
         }
 
-        public List<ListOFAnEducationAdminSideDTO> GetListOfAnEducationForShowinAdminPanel()
+        public List<ListOFAnExperienceAdminSideDTO> GetListOfAnEducationForShowinAdminPanel()
         {
             #region Get List Of An Educations From Data Base 
 
@@ -62,11 +62,11 @@ namespace Application.Service.Implement
 
             #region Object Mapping
 
-            List<ListOFAnEducationAdminSideDTO> returnModel = new List<ListOFAnEducationAdminSideDTO>();
+            List<ListOFAnExperienceAdminSideDTO> returnModel = new List<ListOFAnExperienceAdminSideDTO>();
 
             foreach (var edu in educations)
             {
-                ListOFAnEducationAdminSideDTO childModel = new ListOFAnEducationAdminSideDTO();
+                ListOFAnExperienceAdminSideDTO childModel = new ListOFAnExperienceAdminSideDTO();
 
                 childModel.EducationTitle = edu.EducationTitle;
                 childModel.EducationDuration = edu.EducationDuration;

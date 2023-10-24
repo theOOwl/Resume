@@ -1,0 +1,91 @@
+﻿@model List<Domain.Models.Entities.Experience.Experience>
+@{
+    ViewData["Title"] = "ListOfAnExperience Page";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="content-wrapper" style="min-height: 265.6px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">لیست سابقه شغلی</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-left">
+                        <li class="breadcrumb-item"><a href="/AdminPanel">داشبورد ادمین</a></li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">جدول سابقه شغلی</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th style="width: 10px">ردیف</th>
+                                        <th>عنوان شغلی</th>
+                                        <th>بازه ی زمانی </th>
+                                        <th>سایت شرکت</th>
+                                        <th>نام شرکت</th>
+                                        <th>توضیحات</th>
+                                    </tr>
+
+                                    @foreach (var experience in Model)
+                                    {
+                                        <tr>
+                                            <td>@experience.Id</td>
+                                            <td>@experience.ExperienceTitle</td>
+                                            <td>
+                                                @experience.ExperienceDuration
+                                            </td>
+                                            <td>
+                                                @experience.CompanySite
+                                            </td>
+                                            <td>
+                                                @experience.CompanyName
+                                            </td>
+                                            <td>
+                                                @experience.Description
+                                            </td>
+                                            <td>
+                                                <a class="badge badge-primary" style="cursor:pointer;"
+                                                   asp-action="EditAnExperience"
+                                                   asp-area="AdminPanel"
+                                                   asp-controller="Experience"
+                                                   asp-route-ExperienceId="@experience.Id">
+                                                    ویرایش
+                                               </a>
+
+                                                <a class="badge badge-danger" style="cursor:pointer;"
+                                                   asp-action="DeleteAnExperience"
+                                                   asp-area="AdminPanel"
+                                                   asp-controller="Experience"
+                                                   asp-route-ExperienceId="@experience.Id">حذف</a>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+</div>

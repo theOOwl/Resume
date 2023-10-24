@@ -1,0 +1,79 @@
+﻿@model List<Domain.Models.Entities.MySkills.MySkills>
+@{
+    ViewData["Title"] = "ListOfAnMySkills Page";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="content-wrapper" style="min-height: 265.6px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">لیست مهارت ها</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-left">
+                        <li class="breadcrumb-item"><a href="/AdminPanel">داشبورد ادمین</a></li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">جدول مهارت ها</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th style="width: 10px">ردیف</th>
+                                        <th>عنوان</th>
+                                        <th>درصد تسلط </th>
+                                    </tr>
+
+                                    @foreach (var MySkills in Model)
+                                    {
+                                        <tr>
+                                            <td>@MySkills.Id</td>
+                                            <td>@MySkills.SkillTille</td>
+                                            <td>
+                                                @MySkills.Percentage
+                                            </td>
+                                            <td>
+                                                <a class="badge badge-primary" style="cursor:pointer;"
+                                                   asp-action="EditAnMySkills"
+                                                   asp-area="AdminPanel"
+                                                   asp-controller="MySkills"
+                                                   asp-route-MySkillsId="@MySkills.Id">
+                                                    ویرایش
+                                               </a>
+
+                                                <a class="badge badge-danger" style="cursor:pointer;"
+                                                   asp-action="DeleteAnMySkills"
+                                                   asp-area="AdminPanel"
+                                                   asp-controller="MySkills"
+                                                   asp-route-MySkillsId="@MySkills.Id">حذف</a>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+</div>
