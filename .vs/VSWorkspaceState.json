@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Application",
+    "\\Application\\Service",
+    "\\Application\\Service\\Implement",
+    "\\Resume.Presentation",
     "\\Resume.Presentation\\Controllers",
-    "\\Resume.Presentation\\Views",
-    "\\Resume.Presentation\\Views\\Admin"
+    "\\Resume.Presentation\\wwwroot",
+    "\\Resume.Presentation\\wwwroot\\AdminSample",
+    "\\Resume.Presentation\\wwwroot\\AdminSample\\pages",
+    "\\Resume.Presentation\\wwwroot\\AdminSample\\pages\\examples"
   ],
-  "SelectedNode": "\\Resume.Me.sln",
+  "SelectedNode": "\\Application\\Service\\Implement\\EducationService.cs",
   "PreviewInSolutionExplorer": false
 }
