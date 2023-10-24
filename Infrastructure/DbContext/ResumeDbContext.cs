@@ -4,8 +4,7 @@ using Microsoft.EntityFrameworkCore.SqlServer;
 using Domain.Models.Entities.Education;
 using Domain.Models.Entities.Experience;
 using Domain.Models.Entities.MySkills;
-
-
+using Domain.Entities.ContactMe;
 
 namespace Resume.Presenation.Models.ResumeDbContext;
 
@@ -22,7 +21,7 @@ public class ResumeDbContext : DbContext
 
     #endregion
 
-    #region Db Sets
+    #region Resume Db Sets
 
     public DbSet<Experience> Experiences { get; set; }
 
@@ -30,5 +29,9 @@ public class ResumeDbContext : DbContext
 
     public DbSet<Education> Educations { get; set; }
 
+    #endregion
+
+    #region ContactMe Db Sets
+    public DbSet<ContactMe> ContactMe { get; set; }
     #endregion
 }

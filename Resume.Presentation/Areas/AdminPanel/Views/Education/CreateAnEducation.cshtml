@@ -1,0 +1,62 @@
+﻿@model Application.DTOs.AdminSide.Education.CreateAnEducationAdminSideDTO
+@{
+    ViewData["Title"] = "CreateAnEducations Page";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="content-wrapper" style="min-height: 265.6px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">افزودن سابقه ی تحصیلی</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-left">
+                        <li class="breadcrumb-item"><a href="/AdminPanel">داشبورد ادمین</a></li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-success">
+                        <div class="card-header">
+                            <h3 class="card-title">ارسال اطلاعات سوابق تحصیلی</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form asp-action="CreateAnEducation" asp-area="AdminPanel" asp-controller="Education" method="post">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">عنوان مدرک تحصیلی</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" asp-for="EducationTitle" placeholder="عنوان مدرک تحصیلی را وارد کنید">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">بازه ی زمانی دریافت مدرک</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" asp-for="EducationDuration" placeholder="بازه ی زمانی دریافت مدرک را وارد کنید">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">توضیحات</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" asp-for="Description" placeholder="توضیحات را وارد کنید">
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-success">ارسال</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+</div>

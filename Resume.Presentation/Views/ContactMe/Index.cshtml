@@ -1,0 +1,43 @@
+﻿@model Application.DTOs.SiteSide.ContactMe.ContactMeDTO
+
+<div class="content" data-simplebar="init">
+    <div class="simplebar-wrapper" style="margin: 0px -30px;">
+        <div class="simplebar-height-auto-observer-wrapper">
+            <div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask">
+            <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                    <div class="simplebar-content" style="padding: 0px 30px;">
+                        <div class="section mt-0 mb-5">
+                            <h1 class="title title--h1 title__separate">Contact</h1>
+                        </div>
+
+                        <form id="" class="contact-form"  method="post" asp-action="Index" asp-controller="ContactMe" >
+                            <div class="row">
+                                <div class="form-group col-12 col-md-6">
+                                    <i class="font-icon icon-user"></i>
+                                    <input type="text" class="input input__icon form-control" id="nameContact" asp-for="FullName" placeholder="Full name" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                    <i class="font-icon icon-user"></i>
+                                    <input type="text" class="input input__icon form-control" id="nameContact" asp-for="Mobile" placeholder="Mobile" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-12">
+                                    <textarea class="textarea form-control" id="messageContact" asp-for="Message" placeholder="Your Message" rows="4" required="required" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')" style="overflow: hidden; overflow-wrap: break-word; height: 118px;"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 order-1 order-md-2 text-right">
+                                    <button type="submit" class="btn "><i class="font-icon icon-send"></i> Send Message<span></span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><div class="simplebar-placeholder" style="width: 750px; height: 856px;"></div>
+    </div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="width: 0px; display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="height: 84px; transform: translate3d(0px, 71px, 0px); display: block;"></div></div>
+</div>
+
