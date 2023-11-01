@@ -31,5 +31,20 @@ namespace Application.Service.Implement
             // Add To DataBase
             await _contactMeRepository.AddContactMeToDataBase(model);
         }
+
+        public async Task ChangeStatusOfSeenByAdmin(ContactMe contact)
+        {
+            await _contactMeRepository.ChangeStatusOfSeenByAdmin(contact);
+        }
+
+        public async Task<ContactMe> FindContactMeByIdAsync(int ContactMeId)
+        {
+            return await _contactMeRepository.FindContactMeByIdAsync(ContactMeId);
+        }
+
+        public List<ContactMe> GetListOFContactMe()
+        {
+           return _contactMeRepository.GetListOFContactMe();    
+        }
     }
 }

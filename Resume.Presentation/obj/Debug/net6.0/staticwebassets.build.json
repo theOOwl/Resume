@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MgXehZT719nYfPpCW7YfCvqFRAkmTnAkH8nQCw84C/4=",
+  "Hash": "QNhN9opHzLbCUEKLCNhg8YARFWwq8DXaXIeBfJDD2BM=",
   "Source": "Resume.Presentation",
   "BasePath": "_content/Resume.Presentation",
   "Mode": "Default",
@@ -19616,6 +19616,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NewFolder2\\assets\\styles\\vendors\\swiper.min.css"
+    },
+    {
+      "Identity": "F:\\Projects\\Resume\\Resume\\Resume.Presentation\\wwwroot\\NewFolder2\\CV\\CV.pdf",
+      "SourceId": "Resume.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\Resume\\Resume\\Resume.Presentation\\wwwroot\\",
+      "BasePath": "_content/Resume.Presentation",
+      "RelativePath": "NewFolder2/CV/CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewFolder2\\CV\\CV.pdf"
     },
     {
       "Identity": "F:\\Projects\\Resume\\Resume\\Resume.Presentation\\wwwroot\\NewFolder2\\full\\about.html",

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Resume.Presentation",
-    "\\Resume.Presentation\\Controllers"
+    "\\Resume.Presentation\\Controllers",
+    "\\Resume.Presentation\\Views",
+    "\\Resume.Presentation\\Views\\Shared"
   ],
-  "SelectedNode": "\\Resume.Me.sln",
+  "SelectedNode": "\\Resume.Presentation\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

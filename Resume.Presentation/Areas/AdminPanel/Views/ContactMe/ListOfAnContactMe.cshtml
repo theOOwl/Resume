@@ -1,0 +1,79 @@
+﻿@model List<Domain.Entities.ContactMe.ContactMe>
+@{
+    ViewData["Title"] = "ListOfAnContactMe Page";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="content-wrapper" style="min-height: 265.6px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">لیست پیام ها</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-left">
+                        <li class="breadcrumb-item"><a href="/AdminPanel">داشبورد ادمین</a></li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">جدول پیام ها</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th style="width: 10px">ردیف</th>
+                                        <th>نام پیام دهنده</th>
+                                        <th>موبایل </th>
+                                        <th>متن پیام</th>
+                                        <th>تاریخ</th>
+                                        <th>وضعیت</th>
+                                    </tr>
+
+                                    @foreach (var contactMe in Model)
+                                    {
+                                        <tr>
+                                            <td>@contactMe.Id</td>
+                                            <td>@contactMe.FullName</td>
+                                            <td>
+                                                @contactMe.Mobile
+                                            </td>
+                                            <td>
+                                                @contactMe.Message
+                                            </td>
+                                                <td>
+                                                @contactMe.CreateDate
+                                            </td>
+                                             <td>
+                                                @contactMe.IsSeenByAdmin
+                                            </td>
+                                            <td>
+                                <button asp-action="ChangeStatusOfSeenByAdmin" asp-area="AdminPanel" asp-controller="ContactMe" method="post" type="submit" class="btn btn-primary">تغییر وضعیت</button>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+</div>

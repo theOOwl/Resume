@@ -25,5 +25,19 @@ namespace Infrastructure.Repository
             await _context.ContactMe.AddAsync(contact);
             await _context.SaveChangesAsync();  
         }
+        public async Task<ContactMe> FindContactMeByIdAsync(int ContactMeId)
+        {
+            return _context.ContactMe.FirstOrDefault(p => p.Id == ContactMeId && p.IsSeenByAdmin == true);
+        }
+        public async Task ChangeStatusOfSeenByAdmin(ContactMe contact)
+        {
+            _context.ContactMe.Update(contact);
+            await _context.SaveChangesAsync();
+        }
+
+        public List<ContactMe> GetListOFContactMe()
+        {
+            return _context.ContactMe.ToList(); 
+        }
     }
 }
